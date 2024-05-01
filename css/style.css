@@ -1,0 +1,40 @@
+
+.test-step.active {
+
+    display: block;
+
+}
+
+@media (min-width: 1201px) {
+    .quiz-container {
+        border-radius: 4px;
+        background: none;
+    }
+}
+
+.final-page_horizontal {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 416px;
+}
+
+@media (min-width: 1201px) {
+    .final-page, .quiz, .result, .results {
+        margin: 0 auto;
+        max-width: 1024px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        min-height: 570px !important;
+        -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+        border: 5px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-radius: 4px;
+        border-color: var(--color-bg-7, #e6e6e6);
+        -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .15);
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .15);
+    }
+}
